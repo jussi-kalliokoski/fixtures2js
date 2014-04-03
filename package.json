@@ -1,0 +1,38 @@
+{
+  "name": "fixtures2js",
+  "version": "0.1.0",
+  "description": "Convert your fixtures into a JS object for use in tests.",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul cover _mocha -- -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jussi-kalliokoski/fixtures2js"
+  },
+  "keywords": [
+    "fixture",
+    "testing"
+  ],
+  "author": {
+    "name": "Jussi Kalliokoski",
+    "email": "jussi.kalliokoski@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jussi-kalliokoski/fixtures2js/issues"
+  },
+  "homepage": "https://github.com/jussi-kalliokoski/fixtures2js",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.18.2",
+    "istanbul": "^0.2.7"
+  },
+  "dependencies": {
+    "minimatch": "^0.2.14",
+    "lodash": "^2.4.1"
+  }
+}
