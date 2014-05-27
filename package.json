@@ -6,6 +6,9 @@
   "directories": {
     "test": "test"
   },
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "coveralls": "cat ./coverage/lcov.info | COVERALLS_SERVICE_NAME=\"travis-ci\" ./node_modules/.bin/coveralls",
     "test": "./node_modules/.bin/istanbul cover _mocha -- -R spec"
